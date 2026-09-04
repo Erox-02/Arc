@@ -15,7 +15,6 @@ so i finnally decided to go with tps63020dsjr . Ok got the sym and footprintlets
 Now when i tried to connect the tps630* , i saw why it isnt recommended to begineers , bruh i need inductors , cermaic caps(a ton of) and literally resistors a Mohm lev
 , i might ditch it .Also added the mics and connected them , i am sharing a lot for the mics like the sd too and i2c is the best .
 
-![bl5612](assets/d1_1.png)
 ![initial_ams_schematic](assets/d1_2.png)
 ![upgraded_schematic](assets/d1_3.png)
 ![tps63020dsjr_and_mics_added](assets/d1_4.png)
