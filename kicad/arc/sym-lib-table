@@ -1,0 +1,6 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "2026-09-02_08-03-10") (type "KiCad") (uri "/home/erox/footprints/KiCADv6/2026-09-02_08-03-10.kicad_sym") (options "") (descr ""))
+	(lib (name "BL5612") (type "KiCad") (uri "/home/erox/Downloads/BL5612.kicad_sym") (options "") (descr ""))
+	(lib (name "TPS63020DSJR") (type "KiCad") (uri "/home/erox/Downloads/TPS63020DSJR.kicad_sym") (options "") (descr ""))
+)
