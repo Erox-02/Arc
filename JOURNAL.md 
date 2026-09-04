@@ -6,7 +6,7 @@ created_at: "2026-09-02"
 ---
 
 
-# Sept 4 : Started the pcb
+# September 4 : Started the PCB
 
 My first day with arc in forge , i sarted the pcb today .I am using bl5612-bl as my main motor driver so  my first job to find the symbols for it 
 but lol i cant find those at all so i used gemini to generate those and now I am kinda confused what to use for the ldo so after a lot of probs i decided to use ams1117 -3.3 
