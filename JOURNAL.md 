@@ -8,13 +8,19 @@ created_at: "2026-09-02"
 
 # Sept 4 : Started the pcb
 
-My first day with arc in forge , i sarted the pcb today .I am using bl5612-bl as my main motor driver so  my first job to find the symbols for it , but lol i cant find 
-those at all so i used gemini to generate those and now I am kinda confused what to use for the ldo so after a lot of probs i decided to use ams1117 -3.3 
-then agian i came to know it is not good for me as it generates far more heat as it is not a buck converter but a linear one , so i finnally decided to go with 
-tps63020ds . But the design now becomes too complex , i will deal with it anyways uf! . Anyways gonna fix it tomorrow .
-
+My first day with arc in forge , i sarted the pcb today .I am using bl5612-bl as my main motor driver so  my first job to find the symbols for it 
 ![bl5612](assets/d1_1.png)
+
+but lol i cant find those at all so i used gemini to generate those and now I am kinda confused what to use for the ldo so after a lot of probs i decided to use ams1117 -3.3 
+then agian i came to know it is not good for me as it generates far more heat as it is not a buck converter but a linear one 
 ![initial_ams_schematic](assets/d1_2.png)
+
+so i finnally decided to go with tps63020dsjr . Ok got the sym and footprintlets go!
 ![upgraded_schematic](assets/d1_3.png)
 
-**Total time spent: 3 hours**
+Now when i tried to connect the tps630* , i saw why it isnt recommended to begineers , bruh i need inductors , cermaic caps(a ton of) and literally resistors a Mohm lev
+, i might ditch it .Also added the mics and connected them , i am sharing a lot for the mics like the sd too and i2c is the best .
+
+![tps63020dsjr_and_mics_added](assets/d1_4)
+
+**Total time spent: 4.5 hours**
