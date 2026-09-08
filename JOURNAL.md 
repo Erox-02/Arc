@@ -5,12 +5,12 @@ description: "A small wheeled robot designed to explore how much perception and 
 created_at: "2026-09-02"
 ---
 
-
-# September 4 : Started the PCB
+# September 4 : Started the Schematic
 
 My first day with arc in forge , i sarted the pcb today .I am using bl5612-bl as my main motor driver so  my first job to find the symbols for it 
 but lol i cant find those at all so i used gemini to generate those and now I am kinda confused what to use for the ldo so after a lot of probs i decided to use ams1117 -3.3 
-then agian i came to know it is not good for me as it generates far more heat as it is not a buck converter but a linear one so i finnally decided 
+then agian i came to know it is not good for me as it generates far more heat as it is not a buck converter but 
+a linear one so i finnally decided 
 to go with tps63020dsjr .Now when i tried to connect the tps630*, i saw why it isnt recommended to begineers , bruh i need inductors , cermaic caps(a ton of) 
 and literally resistors a Mohm lev i might ditch it .Also added the mics and connected them , i am sharing a lot for the mics like the sd too and i2c is the best .
 
@@ -19,3 +19,23 @@ and literally resistors a Mohm lev i might ditch it .Also added the mics and con
 ![tps63020dsjr_and_mics_added](assets/d1_4.png)
 
 **Total time spent: 4 hours**
+
+# Sept 7 : Finishing the Schematic && 
+
+I was away for a few days but now back again , oh i see my curcuit is lackin common ground ok lemme fix tht .
+
+![fixed grounds](assets/d2_1.png)
+
+Now i think i need to add the caps , lets do it . Ah the caps really sucks i mean i calculated the vals with such trouble and now i need to find them on robu and then the footprints ahhhh.
+ok got the caps now need to place them on Schematic , its such a boaring task ah i wd have rather written the firmware .
+ah ok caps added :
+
+![caps added](assets/d2_2.png)
+
+AH holy sht i forgot the mpu , how can i be such an idiot .ahhh ok lets do the mpu now .
+
+![oled added](assets/d2_3.png)
+
+what i just added a i2c display instead of the mpu ! what ok i have an idea lets make the mpu i2c i can do tht cant i , ahhhhhhhhhhhhhhhhhhhhhhhhhh
+
+**Total time spent: 3 hours**
